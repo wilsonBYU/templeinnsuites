@@ -51,9 +51,18 @@ const getWeather = () => {
         })
 }
 
+const getTempleInfo = () => {
+    const templesUrl = "https://raw.githubusercontent.com/wilsonBYU/templeinnsuites/main/data/templeData.json"
+    fetch(templesUrl)
+        .then(data => data.json())
+        .then(data => console.log(data))
+}
+
 const splitDate = (date) => {
     return date.slice(5, 10)
 }
+
+getTempleInfo()
 
 getWeather()
 

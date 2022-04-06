@@ -12,7 +12,8 @@
                 "baptism": "Monday to Saturday with previous reservation",
                 "initiatory": "Monday to Saturday, no reservation required"
             },
-            "closure": "Temple close during renovation from April 28 to June 11"
+            "closure": "Temple close during renovation from April 28 to June 11",
+            "picture": "https://raw.githubusercontent.com/wilsonBYU/templeinnsuites/main/images/pictures/WDC_Temple.webp"
         },
         {
             "name": "Columbia River Washington Temple",
@@ -26,8 +27,8 @@
                 "baptism": "Monday to Saturday with previous reservation, 5 people only (not including staff)",
                 "initiatory": "Monday to Saturday, call the temple for limitations"
             },
-            "closure": "The temple won't close unless it is neccesary."
-        },
+            "closure": "The temple won't close unless it is neccesary.",
+            "picture": "https://raw.githubusercontent.com/wilsonBYU/templeinnsuites/main/images/pictures/ColumbiaR_temple.webp"        },
         {
             "name": "Seattle Washington Temple",
             "history": "The Seattle Washington Temple (formerly the Seattle Temple) is the 21st constructed and 19th operating temple of The Church of Jesus Christ of Latter-day Saints (LDS Church). Located in the city of Bellevue, east of Seattle, it was the first to be built in the state of Washington.[1][2] The temple has a modern single-spire design. Due to its proximity to the Bellevue Airfield, the proposed height of the spire was reduced, and a red strobe warning light was installed at the base of the angel Moroni statue.[3] The airfield closed in 1983, and the light was shut off.",
@@ -40,7 +41,8 @@
                 "baptism": "Monday to Saturday with previous reservation",
                 "initiatory": "Monday to Saturday, no reservation required"
             },
-            "closure": "Temple will keep open until November 11 for regular maintenance."
+            "closure": "Temple will keep open until November 11 for regular maintenance.",
+            "picture": "https://raw.githubusercontent.com/wilsonBYU/templeinnsuites/main/images/pictures/SeattleW_temple.webp"
         },
         {
             "name": "Spokane Washingtong Temple",
@@ -54,7 +56,8 @@
                 "baptism": "Monday to Saturday with previous reservation and limit attendance",
                 "initiatory": "Monday to Saturday, call the temple for availability"
             },
-            "closure": "Temple will close on Sep 15 for regular renovations"
+            "closure": "Temple will close on Sep 15 for regular renovations",
+            "picture": "https://raw.githubusercontent.com/wilsonBYU/templeinnsuites/main/images/pictures/Spokane_temple.webp"
         }
     ]
 }
