@@ -8,9 +8,9 @@
             "email": "washingtongdctemple@churchofjesuschrist.org",
             "services": "Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
             "ordinance_schedule": {
-                "sealing": "Monday to Saturday from 6am to 6pm",
-                "baptism": "Monday to Saturday with previous reservation",
-                "initiatory": "Monday to Saturday, no reservation required"
+                "sealing": "Sealing: Monday to Saturday from 6am to 6pm",
+                "baptism": "Bapsism: Monday to Saturday with previous reservation",
+                "initiatory": "Initiatory: Monday to Saturday, no reservation required"
             },
             "closure": "Temple close during renovation from April 28 to June 11",
             "picture": "https://raw.githubusercontent.com/wilsonBYU/templeinnsuites/main/images/pictures/WDC_Temple.webp"
@@ -23,9 +23,9 @@
             "email": "columbiariverwashingtontemple@churchofjesuschrist.org",
             "services": "Based on First Presidency direction, this temple has resumed limited operations. All ordinances are available by appointment only. Proxy ordinances may be limited to members residing in their designated temple district.",
             "ordinance_schedule": {
-                "sealing": "Monday to Saturday from 8am to 5pm",
-                "baptism": "Monday to Saturday with previous reservation, 5 people only (not including staff)",
-                "initiatory": "Monday to Saturday, call the temple for limitations"
+                "sealing": "Sealing: Monday to Saturday from 8am to 5pm",
+                "baptism": "Baptism: Monday to Saturday with previous reservation, 5 people only (not including staff)",
+                "initiatory": "Initiatory: Monday to Saturday, call the temple for limitations"
             },
             "closure": "The temple won't close unless it is neccesary.",
             "picture": "https://raw.githubusercontent.com/wilsonBYU/templeinnsuites/main/images/pictures/ColumbiaR_temple.webp"        },
@@ -37,9 +37,9 @@
             "email": "seattlewashingtonctemple@churchofjesuschrist.org",
             "services": "All ordinances are available by appointment only. Click the Appointments button below to schedule or modify an appointment. Patrons are encouraged to bring their own temple clothing.",
             "ordinance_schedule": {
-                "sealing": "Monday to Saturday from 6am to 6pm",
-                "baptism": "Monday to Saturday with previous reservation",
-                "initiatory": "Monday to Saturday, no reservation required"
+                "sealing": "Sealing: Monday to Saturday from 6am to 6pm",
+                "baptism": "Baptism: Monday to Saturday with previous reservation",
+                "initiatory": "Initiatory: Monday to Saturday, no reservation required"
             },
             "closure": "Temple will keep open until November 11 for regular maintenance.",
             "picture": "https://raw.githubusercontent.com/wilsonBYU/templeinnsuites/main/images/pictures/SeattleW_temple.webp"
@@ -52,9 +52,9 @@
             "email": "spokanewashingtongtemple@churchofjesuschrist.org",
             "services": "Proxy ordinances may be limited to members residing in their designated temple district. Patrons are encouraged to bring their own temple clothing.",
             "ordinance_schedule": {
-                "sealing": "Monday to Saturday from 8am to 5pm",
-                "baptism": "Monday to Saturday with previous reservation and limit attendance",
-                "initiatory": "Monday to Saturday, call the temple for availability"
+                "sealing": "Sealing: Monday to Saturday from 8am to 5pm",
+                "baptism": "Baptism: Monday to Saturday with previous reservation and limit attendance",
+                "initiatory": "Initiatory: Monday to Saturday, call the temple for availability"
             },
             "closure": "Temple will close on Sep 15 for regular renovations",
             "picture": "https://raw.githubusercontent.com/wilsonBYU/templeinnsuites/main/images/pictures/Spokane_temple.webp"

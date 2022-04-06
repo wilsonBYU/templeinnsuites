@@ -15,7 +15,7 @@
     <title>Heaven Doors Inn - Home</title>
     <!-- example website https://zyro.com/preview/ginza#desktop -->
 </head>
-<body onload="getTempleInfo()">
+<body onload="">
     <header>
         <div class="img-container">
             <a href="/">
@@ -33,9 +33,34 @@
         </nav>
     </header>
     <main>
-        <section class="temples">
-            <h1>Temples</h1>
-            
+        <section class="fulltimemissionary">
+            <h1>Full time missionaries</h1>
+            <p>Because we know your willigness to serve, let us help you out with our special discounts for full time temple missionaries, our services that include the special amenities for free</p>
+            <form action="formresponse.html">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="tel">Phone</label>
+                <input type="tel" name="tel" id="tel" required>
+                <label for="comment">Comment</label>
+                <textarea name="comment" id="comment" cols="30" rows="10" required></textarea>
+                <input type="submit" value="Send my information">
+            </form>
+            <section class="gallery">
+                <div class="img-container">
+                    <img src="images/pictures/missionary_suite_1.webp" alt="">
+                </div>
+                <div class="img-container">
+                    <img src="images/pictures/missionary_suite_2.webp" alt="">
+                </div>
+                <div class="img-container">
+                    <img src="images/pictures/missionary_suite_3.webp" alt="">
+                </div>
+                <div class="img-container">
+                    <img src="images/pictures/missionary_suite_4.webp" alt="">
+                </div>
+            </section>
         </section>
     </main>
     <footer>

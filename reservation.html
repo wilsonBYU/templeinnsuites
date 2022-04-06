@@ -15,7 +15,7 @@
     <title>Heaven Doors Inn - Home</title>
     <!-- example website https://zyro.com/preview/ginza#desktop -->
 </head>
-<body onload="getTempleInfo()">
+<body onload="">
     <header>
         <div class="img-container">
             <a href="/">
@@ -33,9 +33,32 @@
         </nav>
     </header>
     <main>
-        <section class="temples">
-            <h1>Temples</h1>
-            
+        <section class="reservation">
+            <h1>Reservation</h1>
+            <p>Create a reservation in one of our hotels and you wont regret.</p>
+            <form action="formresponse.html" method="get">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" required>
+                <label for="datestart">Initial date</label>
+                <input type="datetime-local" name="datestart" id="datestart" required>
+                <label for="datesend">End date</label>
+                <input type="datetime-local" name="datesend" id="datesend" required>
+                <label for="location">Choose your hotel</label>
+                <select name="location" id="location" required>
+                    <option value="wdc">- - - - -</option>
+                    <option value="wdc">Washington D.C.</option>
+                    <option value="crw">Columbia River</option>
+                    <option value="sw">Seattle</option>
+                    <option value="spw">Spokane</option>
+                </select>
+                <label for="comments">Include any special accomodation/comment</label>
+                <textarea name="" id="" cols="30" rows="10" required></textarea>
+                <input type="submit" value="Create reservation">
+            </form>
         </section>
     </main>
     <footer>

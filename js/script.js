@@ -12,7 +12,7 @@ const togleMenu = () => {
 document.querySelector(".button-menu").addEventListener("click", togleMenu)
 
 const getWeather = () => {
-    const apiForecast = "http://api.openweathermap.org/data/2.5/forecast?id=3598132&units=metric&appid=2f4da8fb1f6d9955ed9fe6bd18c92e85"
+    const apiForecast = "https://api.openweathermap.org/data/2.5/forecast?id=3598132&units=metric&appid=2f4da8fb1f6d9955ed9fe6bd18c92e85"
     const apiCurrent = "https://api.openweathermap.org/data/2.5/weather?id=3598132&units=metric&appid=2f4da8fb1f6d9955ed9fe6bd18c92e85"
     fetch(apiCurrent)
         .then(data => data.json())
@@ -46,8 +46,6 @@ const getWeather = () => {
             forecast3.textContent = `${data.list[15].main.temp}°C`
             forecast3.setAttribute("title", data.list[15].dt_txt)
             forecast3Date.textContent = splitDate(data.list[15].dt_txt)
-            
-            
         })
 }
 
@@ -55,16 +53,56 @@ const getTempleInfo = () => {
     const templesUrl = "https://raw.githubusercontent.com/wilsonBYU/templeinnsuites/main/data/templeData.json"
     fetch(templesUrl)
         .then(data => data.json())
-        .then(data => console.log(data))
+        .then(data => {
+            console.log(data.temples)
+            const temples = document.querySelector(".temples")
+            data.temples.map(temple => temples.appendChild(displayTempleInfo(temple)))
+        })
+}
+
+const displayTempleInfo = (temple) => {
+    const container = document.createElement("section")
+    container.classList.add("temple-container")
+    
+    const templeImage = document.createElement("img")
+    templeImage.setAttribute("src", temple.picture)
+    templeImage.setAttribute("alt", temple.name)
+    
+    const templeName = document.createElement("h2")
+    templeName.textContent = temple.name
+    
+    const templeHistory = document.createElement("p")
+    templeHistory.textContent = temple.history
+    
+    const templeAddress = document.createElement("p")
+    templeAddress.textContent = temple.address
+    
+    const templePhone = document.createElement("p")
+    templePhone.textContent = temple.tel
+        
+    const templeEmail = document.createElement("p")
+    templeEmail.textContent = temple.email
+    templeEmail.classList.add("temple-email")
+    
+    const templeServices = document.createElement("p")
+    templeServices.textContent = temple.services
+    
+    const ordinances = document.createElement("div")
+    const sealing = document.createElement("p")
+    sealing.textContent = temple.ordinance_schedule.sealing
+    
+    const baptism = document.createElement("p")
+    baptism.textContent = temple.ordinance_schedule.baptism
+    
+    const initiatory = document.createElement("p")
+    initiatory.textContent = temple.ordinance_schedule.initiatory
+    ordinances.append(sealing, baptism, initiatory)
+
+    container.append(templeName, templeImage, templeHistory, templeAddress, templePhone, templeEmail, templeServices, ordinances)
+    
+    return container
 }
 
 const splitDate = (date) => {
     return date.slice(5, 10)
 }
-
-getTempleInfo()
-
-getWeather()
-
-
-document.querySelector(".reserve-jumbotron").addEventListener("click", getWeather)

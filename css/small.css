@@ -61,7 +61,7 @@ header > nav {
     width: 100%;
     height: 0;
     opacity: 0;
-
+    background-color: var(--background);
     transition: opacity 0.3s ease-in-out;
     position: absolute;
     top: 100%;
@@ -85,7 +85,6 @@ header > nav > ul > li > a {
     color: var(--gold-color);
     font-weight: bolder;
     border-bottom: 1px solid var(--gold-color);
-    filter: drop-shadow(2px 2px 2px var(--header-colors));
 }
 
 .open {
@@ -286,3 +285,142 @@ footer > div.address {
     margin: 0.5em 0;
 }
 
+main > section.temples {
+    padding-top: 6em;
+}
+
+main > section.temples > h1 {
+    color: var(--gold-color);
+    font-size: 3em;
+    margin: 0;
+    text-align: center;
+}
+
+main > section.temples > section.temple-container {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--shadow-color);
+    margin: 1em;
+}
+
+main > section.temples > section.temple-container > h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+main > section.temples > section.temple-container > p.temple-email {
+    font-size: 0.90em;
+}
+
+main> section.reservation {
+    padding: 2em;
+    padding-top: 4em;
+}
+
+main > section.reservation > h1 {
+    font-size: 3em;
+    text-align: center;
+    color: var(--gold-color);
+}
+
+main > section.reservation > form,
+main > section.fulltimemissionary > form {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-left: 2px solid var(--gold-color);
+}
+
+main > section.reservation > form > input,
+main > section.fulltimemissionary > form > input,
+main > section.reservation > form > select {
+    margin-bottom: 1em;
+}
+
+main > section.reservation > form > input[type=text],
+main > section.reservation > form > input[type=email],
+main > section.reservation > form > input[type=tel],
+main > section.fulltimemissionary > form > input[type=text],
+main > section.fulltimemissionary > form > input[type=email],
+main > section.fulltimemissionary > form > input[type=tel],
+main > section.reservation > form > textarea,
+main > section.fulltimemissionary > form > textarea,
+main > section.reservation > form > input[type=datetime-local],
+main > section.reservation > form > select {
+    padding: 0.4em;
+    background-color: white;
+    border: 1px solid var(--shadow-color);
+    width: 100%;
+}
+
+main > section.reservation > form > input:invalid,
+main > section.fulltimemissionary > form > input:invalid {
+    border-bottom: 2px solid crimson;
+}
+
+main > section.reservation > form > input:valid,
+main > section.fulltimemissionary > form > input:valid {
+    border-bottom: 2px solid var(--call-to-action);
+}
+
+main > section.reservation > form > input[type=submit],
+main > section.fulltimemissionary > form > input[type=submit] {
+    background-color: var(--call-to-action);
+    display: block;
+    text-align: center;
+    padding: 0.5em 4em;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 2em;
+    border: none;
+}
+
+main > section.reservation > form > label {
+    font-size: 0.75em;
+    color: var(--header-colors);
+}
+
+main > section.formresponse {
+    padding: 15em 1em;
+}
+
+main > section.formresponse > h1 {
+    font-size: 3em;
+    color: var(--gold-color);
+}
+
+main > section.services {
+    padding: 6em 1em;
+}
+
+main > section.services > h1 {
+    font-size: 3em;
+    color: var(--gold-color);
+    text-align: center;
+}
+
+main > section.reception,
+main > section.fulltimemissionary {
+    padding: 2em;
+    padding-top: 4em;
+}
+
+main > section.reception > h1,
+main > section.fulltimemissionary > h1 {
+    font-size: 3em;
+    color: var(--gold-color);
+    text-align: center;
+}
+
+main > section.reception > section.gallery > div.img-container,
+main > section.fulltimemissionary > section.gallery > div.img-container {
+    width: 100%;
+}
+main > section.reception > section.gallery > div.img-container > img,
+main > section.fulltimemissionary > section.gallery > div.img-container > img{
+    width: 100%;
+    height: auto;
+}
