@@ -1,0 +1,60 @@
+{
+    "temples": [
+        {
+            "name": "Washingtong D.C. Temple",
+            "history": "The Washington D.C. Temple (formerly the Washington Temple) is the 18th constructed and 16th operating temple of The Church of Jesus Christ of Latter-day Saints (LDS Church). It is located in Kensington, Maryland, United States, just north of Washington, D.C., near the Capital Beltway. The temple was dedicated in 1974 after an open house that attracted over 750,000 people, including several international dignitaries. The temple was the first temple built by the church east of the Mississippi River since 1846, when the original Nauvoo Temple was dedicated.",
+            "address": "9900 Stoneybrook, Dr Kensington, MD 20895-3199",
+            "tel": "(301)588-0650",
+            "email": "washingtongdctemple@churchofjesuschrist.org",
+            "services": "Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
+            "ordinance_schedule": {
+                "sealing": "Monday to Saturday from 6am to 6pm",
+                "baptism": "Monday to Saturday with previous reservation",
+                "initiatory": "Monday to Saturday, no reservation required"
+            },
+            "closure": "Temple close during renovation from April 28 to June 11"
+        },
+        {
+            "name": "Columbia River Washington Temple",
+            "history": "The Columbia River Washington Temple is the 107th operating temple of The Church of Jesus Christ of Latter-day Saints (LDS Church). The Columbia River Washington Temple, located in Richland near Badger Mountain, is the third temple in the state of Washington, following the Seattle Washington and Spokane Washington temples.",
+            "address": "969 Gage Blvd, Richland WA 99352-7777",
+            "tel": "(509)628-0990",
+            "email": "columbiariverwashingtontemple@churchofjesuschrist.org",
+            "services": "Based on First Presidency direction, this temple has resumed limited operations. All ordinances are available by appointment only. Proxy ordinances may be limited to members residing in their designated temple district.",
+            "ordinance_schedule": {
+                "sealing": "Monday to Saturday from 8am to 5pm",
+                "baptism": "Monday to Saturday with previous reservation, 5 people only (not including staff)",
+                "initiatory": "Monday to Saturday, call the temple for limitations"
+            },
+            "closure": "The temple won't close unless it is neccesary."
+        },
+        {
+            "name": "Seattle Washington Temple",
+            "history": "The Seattle Washington Temple (formerly the Seattle Temple) is the 21st constructed and 19th operating temple of The Church of Jesus Christ of Latter-day Saints (LDS Church). Located in the city of Bellevue, east of Seattle, it was the first to be built in the state of Washington.[1][2] The temple has a modern single-spire design. Due to its proximity to the Bellevue Airfield, the proposed height of the spire was reduced, and a red strobe warning light was installed at the base of the angel Moroni statue.[3] The airfield closed in 1983, and the light was shut off.",
+            "address": "2808 148th Ave SE, Bellevue WA 98007-6453",
+            "tel": "(425)643-5144",
+            "email": "seattlewashingtonctemple@churchofjesuschrist.org",
+            "services": "All ordinances are available by appointment only. Click the Appointments button below to schedule or modify an appointment. Patrons are encouraged to bring their own temple clothing.",
+            "ordinance_schedule": {
+                "sealing": "Monday to Saturday from 6am to 6pm",
+                "baptism": "Monday to Saturday with previous reservation",
+                "initiatory": "Monday to Saturday, no reservation required"
+            },
+            "closure": "Temple will keep open until November 11 for regular maintenance."
+        },
+        {
+            "name": "Spokane Washingtong Temple",
+            "history": "The temple was announced in August 1998. During the open house one year later, 52,000 people toured the building. On August 21, 1999, LDS Church president Gordon B. Hinckley dedicated the Spokane Washington Temple, with approximately 16,000 members attending 11 dedication sessions.",
+            "address": "13710 E 40th Ave, Spokane WA 99206",
+            "tel": "(509)926-2824",
+            "email": "spokanewashingtongtemple@churchofjesuschrist.org",
+            "services": "Proxy ordinances may be limited to members residing in their designated temple district. Patrons are encouraged to bring their own temple clothing.",
+            "ordinance_schedule": {
+                "sealing": "Monday to Saturday from 8am to 5pm",
+                "baptism": "Monday to Saturday with previous reservation and limit attendance",
+                "initiatory": "Monday to Saturday, call the temple for availability"
+            },
+            "closure": "Temple will close on Sep 15 for regular renovations"
+        }
+    ]
+}

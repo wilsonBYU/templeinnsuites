@@ -1,0 +1,288 @@
+:root {
+    --gold-color: #D4AF37;
+    --call-to-action: #375cd4;
+    --background: #f1f1f1;
+    --background2: #dfdfdf;
+    --shadow-color: #a8a8a8;
+    --header-colors: #292929;
+    --text-color: #474747;
+    --header-font: 'Rouge Script', cursive;
+    --paragraph-font: 'Roboto', sans-serif;
+    
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--header-font)
+}
+
+p, span, a {
+    font-family: var(--paragraph-font)
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    position: absolute;
+}
+
+header > div.img-container {
+    width: 75%;
+}
+
+header > div.img-container > a {
+    width: 100%;
+    height: auto;
+}
+
+header > div.img-container > a > img {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(2px 2px 2px var(--header-colors));
+}
+
+header > span.button-menu {
+    text-align: right;
+    font-size: 2em;
+}
+
+header > nav {
+    width: 100%;
+    height: 0;
+    opacity: 0;
+
+    transition: opacity 0.3s ease-in-out;
+    position: absolute;
+    top: 100%;
+    color: var(--header-colors);
+
+}
+
+header > nav > ul {
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 0.3em 0;
+    color: var(--gold-color);
+    font-weight: bolder;
+    border-bottom: 1px solid var(--gold-color);
+    filter: drop-shadow(2px 2px 2px var(--header-colors));
+}
+
+.open {
+    height: auto;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+main > section.home > section.jumbotron {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/pictures/family_temple.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main > section.home > section.jumbotron > div.weather-card {
+    width: auto;
+    display: inline-flex;
+    flex-direction: column;
+    color: var(--background);
+}
+
+main > section.home > section.jumbotron > div.weather-card > div.main {
+    padding: 1em;
+    background-color: rgba(78, 78, 78, 0.582);
+    display: inline-block;
+    font-size: 2em;
+    margin: 0.2em;
+    font-size: bolder;
+    text-align: center;
+    filter: drop-shadow(2px 2px 2px var(--header-colors));
+}
+
+main > section.home > section.jumbotron > div.weather-card > div.main > span#mainWeatherDescription,
+main > section.home > section.jumbotron > div.weather-card > div.main > span#mainWeatherHumidity {
+    font-size: 0.5em;
+}
+
+main > section.home > section.jumbotron > div.weather-card > div.smalls {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: .75em;
+    filter: drop-shadow(2px 2px 2px var(--header-colors));
+}
+
+main > section.home > section.jumbotron > div.weather-card > div.smalls > div.weather{
+    background-color: rgba(78, 78, 78, 0.582);
+    padding: 0.5em;
+    display: inline-flex;
+    flex-direction: column;
+    width: auto;
+    margin: 0.2em;
+    text-align: center;
+    font-weight: bolder;
+}
+
+main > section.home > section.jumbotron > a.reserve-jumbotron {
+    position: absolute;
+    top: 73%;
+    background-color: var(--call-to-action);
+    padding: 0.5em 4em;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    filter: drop-shadow(2px 2px 2px var(--header-colors));
+}
+
+main > section.home > section.jumbotron > div.social {
+    position: absolute;
+    width: 50%;
+    top: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main > section.home > section.jumbotron > div.social > a > img.social-icon {
+    height: 40px;
+    filter: drop-shadow(2px 2px 2px var(--header-colors));
+}
+
+main > section.home > section.temple-info {
+    padding: 2em;
+    text-align: center;
+    background-color: var(--background2);
+}
+
+main > section.home > section.temple-info > div.img-temple-container {
+    width: 100%;
+}
+
+main > section.home > section.temple-info > h2 {
+    font-size: 2em;
+    color: var(--gold-color);
+}
+
+main > section.home > section.temple-info > div.img-temple-container > img {
+    width: 100%;
+}
+
+main > section.home > section.services {
+    padding: 2em;
+}
+
+main > section.home > section.services > h2 {
+    font-size: 2em;
+    margin-top: 0;
+    color: var(--gold-color);
+    text-align: center;
+}
+
+main > section.home > section.services > div.service {
+    padding: 0.5em 1em;
+    background-color: var(--background2);
+    margin-bottom: 1em;
+}
+
+main > section.home > section.services > div.service > h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 0;
+}
+
+main > section.home > section.contact-us {
+    padding: 2em;
+    background-color: var(--background2);
+    text-align: center;
+}
+
+main > section.home > section.contact-us > p.contact-address {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main > section.home > section.contact-us > h2 {
+    font-size: 2em;
+    color: var(--gold-color);
+    text-align: center;
+}
+
+main > section.home > section.reserve-now {
+    padding: 2em;
+    text-align: center;
+}
+
+main > section.home > section.reserve-now > h2 {
+    font-size: 2em;
+    color: var(--gold-color);
+    
+}
+
+main > section.home > section.reserve-now > a.reserve-body {
+    background-color: var(--call-to-action);
+    display: block;
+    text-align: center;
+    padding: 0.5em 4em;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    filter: drop-shadow(2px 2px 2px var(--header-colors));
+}
+
+footer {
+    background-color: var(--background2);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > div.img-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > div.img-container > img {
+    width: 60%;
+    margin: 0 auto;
+}
+
+footer > p {
+    margin: 0.5em 0;
+}
+
+footer > div.address {
+    margin: 0.5em 0;
+}
+

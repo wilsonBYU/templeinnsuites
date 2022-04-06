@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120.09093mm"
+   height="24.716669mm"
+   version="1.1"
+   viewBox="0 0 453.87901 93.417239"
+   id="svg835"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.1.2 (1:1.1+202202050950+0a00cf5339)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs839">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient14600">
+      <stop
+         style="stop-color:#f5be39;stop-opacity:1"
+         offset="0"
+         id="stop14596" />
+      <stop
+         style="stop-color:#ffd699;stop-opacity:1"
+         offset="0.28491822"
+         id="stop27848" />
+      <stop
+         style="stop-color:#9a5f00;stop-opacity:1"
+         offset="0.54040873"
+         id="stop27850" />
+      <stop
+         style="stop-color:#cfa344;stop-opacity:1"
+         offset="0.83188719"
+         id="stop27852" />
+      <stop
+         style="stop-color:#ffd587;stop-opacity:1"
+         offset="1"
+         id="stop14598" />
+    </linearGradient>
+    <rect
+       x="286.67545"
+       y="154.79141"
+       width="598.12323"
+       height="194.33444"
+       id="rect2770" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14600"
+       id="linearGradient14602"
+       x1="533.08344"
+       y1="236.67937"
+       x2="533.08344"
+       y2="171.45966"
+       gradientUnits="userSpaceOnUse" />
+    <rect
+       x="286.67545"
+       y="154.79141"
+       width="598.12323"
+       height="194.33444"
+       id="rect2770-8" />
+    <rect
+       x="286.67545"
+       y="154.79141"
+       width="598.12323"
+       height="194.33444"
+       id="rect2770-4" />
+    <rect
+       x="286.67545"
+       y="154.79141"
+       width="598.12323"
+       height="194.33444"
+       id="rect28902" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14600"
+       id="linearGradient28914"
+       x1="287.25177"
+       y1="204.00427"
+       x2="741.13873"
+       y2="204.00427"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14600"
+       id="linearGradient28935"
+       gradientUnits="userSpaceOnUse"
+       x1="502.72284"
+       y1="171.45966"
+       x2="502.72284"
+       y2="237.39645" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview837"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.2811119"
+     inkscape:cx="254.07616"
+     inkscape:cy="15.221152"
+     inkscape:window-width="1680"
+     inkscape:window-height="986"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg835"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <g
+     fill="#000000"
+     font-family="sans-serif"
+     id="g833"
+     transform="translate(-287.25149,-171.17209)">
+    <text
+       font-size="80px"
+       style="line-height:1.25;white-space:pre;shape-inside:url(#rect2432)"
+       xml:space="preserve"
+       id="text829" />
+    <text
+       transform="translate(48.818,-12)"
+       font-size="24px"
+       letter-spacing="3px"
+       style="line-height:1;white-space:pre;shape-inside:url(#rect15346)"
+       xml:space="preserve"
+       id="text831" />
+  </g>
+  <text
+     xml:space="preserve"
+     id="text28900"
+     style="font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect28902);fill:url(#linearGradient28935);fill-opacity:1;stroke:url(#linearGradient28914);stroke-width:0.56692912;stroke-miterlimit:4;stroke-dasharray:none"
+     inkscape:export-filename="/home/wilson/BYU/WDD230/templeinnsuites/images/logo.webp"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96"
+     transform="matrix(0.99999898,0,0,0.99999898,-287.26075,-171.17209)"><tspan
+       x="286.67578"
+       y="225.57227"
+       id="tspan29044"><tspan
+         style="font-family:'Rouge Script';-inkscape-font-specification:'Rouge Script'"
+         id="tspan29042">Heaven Doors Inn</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     id="text2768"
+     style="font-style:normal;font-weight:normal;font-size:80px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect2770);fill:url(#linearGradient14602);fill-opacity:1;stroke:none"
+     inkscape:export-filename="/home/wilson/BYU/WDD230/templeinnsuites/images/logo.webp"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96"
+     transform="matrix(0.99999898,0,0,0.99999898,-287.26075,-171.17209)"><tspan
+       x="286.67578"
+       y="225.57227"
+       id="tspan29048"><tspan
+         style="font-family:'Rouge Script';-inkscape-font-specification:'Rouge Script'"
+         id="tspan29046">Heaven Doors Inn</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;letter-spacing:2px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999999"
+     x="63.488686"
+     y="88.542236"
+     id="text8528"
+     inkscape:export-filename="/home/wilson/BYU/WDD230/templeinnsuites/images/logo.webp"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96"><tspan
+       sodipodi:role="line"
+       id="tspan8526"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:24px;font-family:Roboto;-inkscape-font-specification:'Roboto Light';stroke-width:0.999999"
+       x="63.488686"
+       y="88.542236">A piece of heaven on earth</tspan></text>
+</svg>
