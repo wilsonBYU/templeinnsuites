@@ -137,7 +137,9 @@
     main > section.fulltimemissionary,
     main > section.reserve-now,
     main > section.reservation, 
-    main > section.services {
+    main > section.services,
+    main > section.reception,
+    main > section.formresponse {
         padding: 15em 10em;
     }
     

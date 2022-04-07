@@ -118,7 +118,7 @@ main > section.home > section.jumbotron > div.weather-card > div.main {
     display: inline-block;
     font-size: 2em;
     margin: 0.2em;
-    font-size: bolder;
+    font-weight: bolder;
     text-align: center;
     filter: drop-shadow(2px 2px 2px var(--header-colors));
 }
