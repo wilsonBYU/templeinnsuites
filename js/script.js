@@ -56,11 +56,12 @@ const getTempleInfo = () => {
         .then(data => {
             console.log(data.temples)
             const temples = document.querySelector(".temples")
-            data.temples.map(temple => temples.appendChild(displayTempleInfo(temple)))
+            data.temples.map((temple, key) => temples.appendChild(displayTempleInfo(temple, key)))
+            likesSetup()
         })
 }
 
-const displayTempleInfo = (temple) => {
+const displayTempleInfo = (temple, key) => {
     const container = document.createElement("section")
     container.classList.add("temple-container")
     
@@ -97,8 +98,20 @@ const displayTempleInfo = (temple) => {
     const initiatory = document.createElement("p")
     initiatory.textContent = temple.ordinance_schedule.initiatory
     ordinances.append(sealing, baptism, initiatory)
+    
+    const likeContainer = document.createElement("div")
+    const likes = document.createElement("span")
+    likes.setAttribute("id", `temple${key}`)
+    likes.classList.add("likeInfo")
+    console.log(`temple${key}`)
+    const likeButton = document.createElement("button")
+    likeButton.innerHTML = "likes 👍"
+    likeButton.setAttribute("id", `${key}`)
+    likeButton.addEventListener("click", generateLike)
+    
+    likeContainer.append(likeButton, likes)
 
-    container.append(templeName, templeImage, templeHistory, templeAddress, templePhone, templeEmail, templeServices, ordinances)
+    container.append(templeImage, templeName, templeHistory, templeAddress, templePhone, templeEmail, templeServices, ordinances, likeContainer)
     
     return container
 }
@@ -106,3 +119,38 @@ const displayTempleInfo = (temple) => {
 const splitDate = (date) => {
     return date.slice(5, 10)
 }
+
+const likesSetup = (e) => {
+    if (localStorage.getItem("temples") != null) {
+        let temples = JSON.parse(localStorage.getItem("temples"))
+        const t1 = document.querySelector("#temple0")
+        const t2 = document.querySelector("#temple1")
+        const t3 = document.querySelector("#temple2")
+        const t4 = document.querySelector("#temple3")
+        t1.textContent = temples.t0
+        t2.textContent = temples.t1
+        t3.textContent = temples.t2
+        t4.textContent = temples.t3
+    } else {
+        localStorage.setItem("temples", JSON.stringify({"t0": 0, "t1": 0, "t2": 0, "t3": 0}))
+    }
+}
+
+const generateLike = (e) => {
+    console.log(`click ${e.target.id}`)
+    let temples = JSON.parse(localStorage.getItem("temples"))
+    let textElement = document.querySelector(`#temple${e.target.id}`)
+    let current = parseInt(temples[`t${e.target.id}`])
+    temples[`t${e.target.id}`] = current + 1
+    console.log(temples)
+    textElement.textContent = temples[`t${e.target.id}`]
+    localStorage.setItem("temples", JSON.stringify(temples))
+    
+}
+
+const lastEdit = () => {
+    console.log(document.lastModified)
+    document.querySelector("#lastedit").textContent = document.lastModified
+}
+
+lastEdit()

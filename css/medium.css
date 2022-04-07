@@ -5,6 +5,7 @@
     
     main > section.home > section.services {
         display: grid;
+        gap: 1em;
         grid-template-columns: repeat(2, 1fr);
     }
     
@@ -26,6 +27,14 @@
         grid-row: 3/4;
     }
     
+    main > section.temples > section.temple-container p:nth-child(7){
+        display: block;
+    } 
+    
+    main > section.temples {
+        padding: 6em 1.5em;
+    }
+       
     footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

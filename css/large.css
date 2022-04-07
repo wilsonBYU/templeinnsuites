@@ -20,9 +20,16 @@
     }
     
     header > nav > ul {
+        width: 50%;
+        margin: 0 auto;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+    }
+    
+    header > nav > ul > li > a{
+        font-size: 1.2em;
+        font-weight: bolder;
     }
     
     header > div.img-container {
@@ -37,20 +44,131 @@
         margin: 0 auto;
     }
     
+    main > section.home > section.jumbotron > a.reserve-jumbotron {
+        padding: 0.75em 3em;
+        font-size: 1.5em;
+    }
+    
+    main > section.home > section.jumbotron > div.social > a > img {
+        height: 75px;
+    }
+    
+    main > section.home > section.temple-info {
+        padding: 5em 10em;
+        display: grid;
+        align-items: center;
+        gap: 3em;
+    }
+    
+    main > section.home > section.temple-info > h2 {
+        font-size: 4em;
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    main > section.home > section.temple-info > div.info {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    
+    main > section.home > section.temple-info > div.img-temple-container {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    
+    main > section.home > section.services,
+    main > section.home > section.contact-us,
+    main > section.home > section.reserve-now {
+        padding: 5em 10em;
+    }
+    
+    main > section.home > section.services > h2,
+    main > section.home > section.contact-us > h2,
+    main > section.home > section.reserve-now > h2
+     {
+        font-size: 4em;
+        grid-gap: 2em;
+    }
+    
+    main > section.home > section.services > div.service {
+        padding: 2em;
+    }
+    
+    main > section.home > section.services > div.service > h3 {
+        font-size: 3em;
+    }
+    
+    main > section.home > section.contact-us > div.address {
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+        margin: 3em auto;
+    }
+    
+   
+    main > section.home > section.reserve-now > a.reserve-body {
+        padding: 1em 2em;
+        width: 25%;
+        margin: 0 auto;
+    }
+    
+    footer {
+        padding: 3em;
+    }
+    
+    footer > div.img-container {
+        width: 75%;
+        margin: 0 auto;
+    }
+    
+    footer > div.address-text {
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer > p {
+        text-align: center;
+        grid-column: 1/3;
+    }
+    
+    
     main > section.temples,
     main > section.fulltimemissionary,
     main > section.reserve-now,
     main > section.reservation, 
     main > section.services {
-        padding: 15em 2em;
+        padding: 15em 10em;
     }
     
-    main > section.reservation {
-        padding-top: 15em;
+    main > section.fulltimemissionary > form,
+    main > section.reservation > form {
+        width: 50%;
+        margin: 2em auto;
+    }
+    
+    main > section.fulltimemissionary > form > input[type=submit] {
+        width: 50%;
+        margin: 2em auto;
     }
     
     footer > section.address {
         width: 100%;
         margin: 0 auto;
     }
+    
+    main > section.temples > section.temple-container p:nth-child(7),
+    main > section.temples > section.temple-container p:nth-child(3){
+        display: block;
+    } 
+    
+    main > section.temples > section.temple-container {
+        max-width: 50%;
+    }
+    
+    
+
+    
+    
+
 }
