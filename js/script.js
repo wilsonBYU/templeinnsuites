@@ -35,8 +35,6 @@ const getWeather = () => {
             const forecast1Date = document.querySelector("#forecast1Date")
             const forecast2Date = document.querySelector("#forecast2Date")
             const forecast3Date = document.querySelector("#forecast3Date")
-            console.log(forecast1Date)
-            console.log(data)
             forecast1.textContent = `${data.list[5].main.temp}°C`
             forecast1.setAttribute("title", data.list[5].dt_txt)
             forecast1Date.textContent = splitDate(data.list[5].dt_txt)
@@ -54,7 +52,6 @@ const getTempleInfo = () => {
     fetch(templesUrl)
         .then(data => data.json())
         .then(data => {
-            console.log(data.temples)
             const temples = document.querySelector(".temples")
             data.temples.map((temple, key) => temples.appendChild(displayTempleInfo(temple, key)))
             likesSetup()
@@ -103,7 +100,6 @@ const displayTempleInfo = (temple, key) => {
     const likes = document.createElement("span")
     likes.setAttribute("id", `temple${key}`)
     likes.classList.add("likeInfo")
-    console.log(`temple${key}`)
     const likeButton = document.createElement("button")
     likeButton.innerHTML = "likes 👍"
     likeButton.setAttribute("id", `${key}`)
@@ -137,19 +133,16 @@ const likesSetup = (e) => {
 }
 
 const generateLike = (e) => {
-    console.log(`click ${e.target.id}`)
     let temples = JSON.parse(localStorage.getItem("temples"))
     let textElement = document.querySelector(`#temple${e.target.id}`)
     let current = parseInt(temples[`t${e.target.id}`])
     temples[`t${e.target.id}`] = current + 1
-    console.log(temples)
     textElement.textContent = temples[`t${e.target.id}`]
     localStorage.setItem("temples", JSON.stringify(temples))
     
 }
 
 const lastEdit = () => {
-    console.log(document.lastModified)
     document.querySelector("#lastedit").textContent = document.lastModified
 }
 
