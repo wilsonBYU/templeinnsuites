@@ -157,6 +157,7 @@ main > section.home > section.jumbotron > a.reserve-jumbotron {
     text-decoration: none;
     font-weight: bold;
     filter: drop-shadow(2px 2px 2px var(--header-colors));
+    cursor: pointer;
 }
 
 main > section.home > section.jumbotron > div.social {
@@ -253,6 +254,7 @@ main > section.home > section.reserve-now > a.reserve-body {
     text-decoration: none;
     font-weight: bold;
     filter: drop-shadow(2px 2px 2px var(--header-colors));
+    cursor: pointer;
 }
 
 footer {
